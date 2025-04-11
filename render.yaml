@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: my-php-site
+    env: docker
+    plan: free
+    repo: https://github.com/YOUR_USERNAMEsrirajpillai/MY_Project
+    dockerfilePath: ./Dockerfile
+    region: oregon
